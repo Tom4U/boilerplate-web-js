@@ -1,0 +1,13 @@
+{
+    "input": "src/views/pages/**/*.html",
+    "output": "html",
+    "allInOutput": true,
+    "plugins": {
+        "posthtml-modules": {
+            "root": "./src/views",
+            "initial": true,
+            "attributeAsLocals": true
+        },
+        "htmlnano": {}
+    }
+}
